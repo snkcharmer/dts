@@ -1,6 +1,7 @@
 import { Navbar } from "@/components/Navbar";
 import "./global.css";
 import { Footer } from "@/components/Footer";
+import { SidebarWithSearch } from "@/components/Sidebar";
 
 export const metadata = {
   title: "Flexible",
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
+        <SidebarWithSearch />
         <main>{children}</main>
         <Footer />
       </body>

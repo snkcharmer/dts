@@ -53,8 +53,9 @@ body {
 }
 
 /* Project Details */
+
 .user-actions_section {
-  @apply fixed max-md:hidden flex gap-4 flex-col right-10 top-20;
+  /*@apply fixed max-md:hidden flex gap-4 flex-col right-10 top-20; */
 }
 
 .user-info {
@@ -107,7 +108,7 @@ body {
 }
 
 .footer_copyright {
-  @apply max-sm:flex-col w-full text-sm font-normal;
+  /* @apply max-sm:flex-col w-full text-sm font-normal; */
 }
 
 .footer_column {
@@ -163,4 +164,10 @@ body {
 /* Profile Projects */
 .profile_projects {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+}
+
+.openSidebar {
+  max-height: 1000px; /* Adjust the value as needed */
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out; /* Adjust the transition duration as needed */
 }

@@ -6,12 +6,7 @@ export const Footer = () => {
     <footer className="flexStart footer">
       <div className="flex flex-col gap-12 w-full">
         <div className="flex items-start flex-col">
-          <Image
-            src="/logo-purple.svg"
-            width={115}
-            height={38}
-            alt="Flexible"
-          />
+          <Image src="/nmp.svg" width={115} height={38} alt="Flexible" />
           <p className="text-start text-sm font-normal mt-5 max-w-xs">
             Lorem ipsum askldjqweo askdoif lkqjdoadf kasjd aojafl kasdoakj iasf
           </p>
