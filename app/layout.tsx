@@ -18,7 +18,9 @@ export default function RootLayout({
       <body>
         <Navbar />
         <SidebarWithSearch />
-        <main>{children}</main>
+        <div className="w-4/5 min-h-screen p-4 shadow-xl shadow-blue-gray-900/5 block float-left h-screen sidebar transition-transform duration-300 ease-in-out">
+          <main>{children}</main>
+        </div>
         <Footer />
       </body>
     </html>

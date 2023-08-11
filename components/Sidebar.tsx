@@ -38,7 +38,11 @@ export function SidebarWithSearch() {
   };
 
   return (
-    <Card className="h-[calc(100vh-2rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5">
+    /* <div className="h-[calc(100vh-2rem)] w-1/4 max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5"> */
+    <div
+      className="w-1/5 min-h-screen p-4 shadow-xl shadow-blue-gray-900/5 block float-left h-screen sidebar transition-transform 
+    duration-300 ease-in-out"
+    >
       <div className="p-2">
         <Input
           icon={<MagnifyingGlassIcon className="h-5 w-5" />}
@@ -197,6 +201,6 @@ export function SidebarWithSearch() {
           </Typography>
         </div>
       </Alert> */}
-    </Card>
+    </div>
   );
 }
